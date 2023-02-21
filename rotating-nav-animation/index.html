@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Rotating navigation</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    
+    <div class="container">
+        <div class="circle-container">
+            <div class="circle">
+                <button id="close">
+                    <i class="fas fa-times">o</i>
+                </button>
+                <button id="open">
+                    <i class="fas fa-bars">x</i>
+                </button>
+            </div>
+        </div>
+
+        <div class="content">
+            <h1>Presentation</h1>
+            <small>Julio Alejandro Yescas Tinoco</small>
+            <p>This maybe could be my first presentation on my repositories so, i will do my best</p>
+
+            <h3>My favorite anime</h3>
+            <img src="https://elcomercio.pe/resizer/AB93Kg1JoITGLMLkCgLBnVzg_7g=/980x528/smart/filters:format(jpeg):quality(75)/cloudfront-us-east-1.images.arcpublishing.com/elcomercio/37OWRM2CLBAE7BP5SXKLVMNHZE.jpg" alt="luffy (one piece)">
+            <p>Just another anime for pirates the most ones should say, becuase its a lot to cover up</p>
+        </div>
+    </div>
+
+    <nav class="nav">
+        <ul>
+            <li class="fas fa-home">
+                <a class="nav-link active" href="#">Home</a>
+            </li>
+            <li class="fas fa-user-alt">
+                <a class="nav-link disabled" href="#">About</a>
+            </li>
+            <li class="fas fa-envelope">
+                <a class="nav-link disabled" href="#">Contact</a>
+            </li>
+        </ul>
+    </nav>
+    
+
+    <script src="script.js"></script>
+</body>
+</html>
